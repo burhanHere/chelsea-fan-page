@@ -1,0 +1,75 @@
+body {
+    font-family: 'Girassol';
+    /* the packground is also added by me in this file */
+    background-image: url('hero_image.png');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+/*utilty classes*/
+.img-responsive {
+    max-width: 100%;
+}
+
+
+.hero_wrapper {
+    /* the color of the font was white that is why it was not showing in the webpage */
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero_wrapper h1 {
+    font-size: 2.4rem;
+    text-align: center;
+}
+.form_code {
+    display: block;
+    width: 80%
+}
+.post_code {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+}
+.form_code button {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+    padding: .3rem;
+    margin-top: 1rem;
+    border-radius: .3rem;
+}
+.li_a_nev:hover {
+    /* background-color: #111; */
+    background-color: lightskyblue;
+    transition: 1s;
+}
+
+
+/* product section */
+
+.product {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product_list_item {
+    float: left;
+    width: 33.33%;
+    margin-left: .5rem;
+}
+
+.product_list_item:first-of-type {
+    margin-left: 0;
+
+}

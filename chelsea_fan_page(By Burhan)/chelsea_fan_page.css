@@ -1,0 +1,130 @@
+body {
+    background-image: url('hero_image.png');
+    background-color: rgb(9 9 74);
+    background-size: contain;
+    font-family: Girassol;
+    background-repeat: no-repeat;
+}
+
+.intro_div {
+    /* border: 1px solid wheat; */
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.intro_h1 {
+    text-align: center;
+    color: wheat;
+    font-size: 250%;
+}
+
+.hr_after_CHELSEA_FC {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.intro_p {
+    text-align: center;
+    color: wheat;
+    font-size: 150%;
+}
+
+.form_search_your_player {
+    /* border: 1px solid wheat; */
+    margin-top: 10%;
+}
+
+.textbox_search_your_player {
+    background: rgb(46, 45, 45);
+    color: rgb(255, 255, 255);
+    margin-left: 30%;
+    width: 33%;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 160%;
+    text-align: center;
+    border: none;
+    outline: none;
+    opacity: 80%;
+}
+
+.textbox_search_your_player:hover {
+    transition: 0.5s;
+    background: rgba(46, 45, 45, 0.829);
+}
+
+.submit_search_your_player {
+    background-color: #ffa600;
+    color: #ffffff;
+    border: 0px;
+    font-size: 160%;
+    border-radius: 50px;
+    width: 7%;
+    height: 50px;
+    opacity: 90%;
+    opacity: 70%;
+    text-align: center;
+}
+
+.submit_search_your_player:hover {
+    transition: 0.5s;
+    background-color: rgba(255, 166, 0, 0.788);
+}
+
+.hr_above_the_textbox {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.div_Blogs_about_Players {
+    font-size: 150%;
+    border: 1px solid wheat;
+    /* background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(39, 37, 37), rgb(39, 37, 37), rgb(39, 37, 37), rgb(255, 255, 255)); */
+    background-image: linear-gradient(to left, rgba(245, 222, 179, 0.342), rgb(9 9 74), rgba(245, 222, 179, 0.342));
+    border-radius: 15px 15px 15px 15px;
+    text-align: center;
+    margin-top: 16%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1.5%;
+    color: wheat;
+    height: 100px;
+}
+
+.div_product_list_item {
+    border: 1px solid wheat;
+    margin-left: 10%;
+    padding-left: 15%;
+    margin-right: 10%;
+    padding-right: 5%;
+    margin-top: 3%;
+}
+
+.product_list_item {
+    border: 1px solid wheat;
+    float: left;
+    color: wheat;
+    width: 33.33%;
+    margin-right: 15%;
+    margin-bottom: 8%;
+    background-color: rgba(245, 222, 179, 0.342);
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+.h2_product_list_item {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.p_product_list_item {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 100%;
+    text-align: center;
+}
